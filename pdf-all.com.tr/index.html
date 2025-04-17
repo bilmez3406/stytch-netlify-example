@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>pdf-all.com.tr - PDF Birleştirici</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PDF dosyalarınızı hızlı ve ücretsiz bir şekilde birleştirin. PDF-All.com.tr ile saniyeler içinde işlem yapın.">
+<meta name="keywords" content="pdf birleştir, pdf birleştirme, online pdf birleştirici, pdf-all">
+<meta name="author" content="pdf-all.com.tr">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    h1 {
+      font-size: 28px;
+      color: #2c3e50;
+    }
+    p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    input, button {
+      margin: 10px;
+      padding: 10px 15px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      background-color: #2ecc71;
+      color: white;
+      border: none;
+    }
+    button:hover {
+      background-color: #27ae60;
+    }
+    #fileList {
+      margin-top: 20px;
+      text-align: left;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <h1>pdf-all.com.tr</h1>
+  <p>PDF dosyalarınızı seçin ve istediğiniz gibi birleştirin.</p>
+  <input type="file" id="pdfFiles" multiple accept="application/pdf"><br>
+  <div id="fileList"></div>
+  <br><br>
+  <button onclick="mergePDFs()">PDF'leri Birleştir ve İndir</button>
+  <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
