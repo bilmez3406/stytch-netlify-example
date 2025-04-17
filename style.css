@@ -1,0 +1,37 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+#pdfList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+.pdf-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  background: #fff;
+  width: 200px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.page-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.page-selector input {
+  margin: 2px;
+}

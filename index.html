@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF Birleştirici | pdf-all.com.tr</title>
+  <meta name="description" content="PDF dosyalarınızı hızlı ve ücretsiz bir şekilde birleştirin. pdf-all.com.tr ile saniyeler içinde işlem yapın.">
+  <meta name="keywords" content="pdf birleştir, pdf birleştirme, online pdf birleştirici, pdf-all">
+  <meta name="author" content="pdf-all.com.tr">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📄 pdf-all.com.tr</h1>
+  <p>PDF dosyalarınızı yükleyin, sayfaları seçin ve birleştirin.</p>
+  <input type="file" id="fileInput" multiple accept=".pdf" />
+  <div id="pdfList"></div>
+  <button onclick="mergeSelectedPages()">Birleştir ve İndir</button>
+  <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
